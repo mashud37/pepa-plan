@@ -1,3 +1,5 @@
+Archived version. Development continues at [mashud37/pepa-workers/](https://github.com/mashud37/pepa-workers).
+
 # pepa-plan
 
 The aim of pepa-plan is to turn a paper idea into a workable outline. This is usually easiest when there is a known shape to write towards, and papers within a field tend to share one even when nobody has written it down. The tool learns that shape by reading a corpus of already-summarised papers, labelling each paragraph with the rhetorical move it performs (background, method, finding, and so on), and clustering the resulting move-sequences into a handful of reusable skeletons. From there it follows either a hand-authored template or one of those learned skeletons to generate a paragraph-by-paragraph outline for a new idea, refining it through a short feedback loop, and it can also check a draft's argumentation flow against the same template. Everything runs locally and single-user; only the language-model calls themselves leave the machine.
